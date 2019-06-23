@@ -9787,6 +9787,13 @@ p {
   color: #0c0910;
 }
 
+.button {
+  font-family: "Raleway", sans-serif;
+  color: #0c0910;
+  width: 30%;
+  font-weight: 700;
+}
+
 .inputs {
   width: 80%;
   font-family: "Old Standard TT", serif;
