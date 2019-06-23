@@ -1,23 +1,42 @@
 
 .navigation{
   color: $white;
+  margin: 0;
+  padding: 0;
+
+
+&__logo{
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding-top: 1rem;
+  padding-left: 1rem;
 
 }
+
+&--texto{
+  font-weight: $bold;
+  color: $smokyblack;
+  padding-right: 1rem;
+}
+
+}
+
+.navbar-light{
+
+    font-weight: $bold;
+    color: $smokyblack;
+    padding-right: 1rem;
+}
+
+
 .navigation_container {
-  background-color: $eerieblack;
-
-    padding-top: 2rem;
-    padding-left: 2rem;
-}
-
-.navigation__logo {
-  width: 120px;
-}
-
-.active{
-  color: $spanish-pink;
-}
-
-.navbar-toggler-icon{
   background-color: $white;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.my-toggler{
+  border-color: rgb(255,102,203);
+
 }
