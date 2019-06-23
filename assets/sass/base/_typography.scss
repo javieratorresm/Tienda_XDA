@@ -1,0 +1,48 @@
+//Font Family
+$roboto: 'Roboto', sans-serif;
+$playfair: 'Playfair Display', serif;
+// Font Weight
+$light: 300;
+$regular: 400;
+$boldi: 900;
+$bold: 700;
+
+
+// Font Sizes
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+
+
+/* Base Typography*/
+h1{
+  font-family: $playfair;
+  font-weight: $boldi;
+  font-size: $xx-large;
+}
+h2{
+  font-family: $playfair;
+  font-weight: $bold;
+  font-size: $x-large;
+}
+
+h3{
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $large;
+}
+
+h4{
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $medium;
+}
+
+
+p{
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $small;
+}

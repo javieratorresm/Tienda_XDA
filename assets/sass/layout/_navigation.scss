@@ -1,0 +1,23 @@
+
+.navigation{
+  color: $white;
+
+}
+.navigation_container {
+  background-color: $eerieblack;
+
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.navigation__logo {
+  width: 120px;
+}
+
+.active{
+  color: $spanish-pink;
+}
+
+.navbar-toggler-icon{
+  background-color: $white;
+}

@@ -1,0 +1,31 @@
+.main {
+  background-color: $white;
+}
+.main__container {
+  align-items: center;
+  color: $raisin-black;
+  font-family: $roboto;
+}
+.main__date {
+  text-align: left;
+  padding-bottom: 2%;
+  font-weight: $light;
+  font-size: $medium;
+
+}
+.main__title-emphasis {
+  font-family: $roboto;
+  font-weight: $light;
+
+}
+.main__title-emphasis_size-xxl {
+  font-size: $x-large;
+
+}
+.main__title-emphasis_size-small {
+  font-size: $medium;
+}
+
+.main__button{
+
+}
