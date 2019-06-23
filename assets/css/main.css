@@ -9722,6 +9722,8 @@ p {
   left: 0;
   padding-top: 1rem;
   padding-left: 1rem;
+  font-family: "Old Standard TT", serif;
+  background-color: #0c0910;
 }
 .navigation--texto {
   font-weight: 700;
@@ -9741,9 +9743,6 @@ p {
   padding-left: 2rem;
 }
 
-.main-section {
-  margin: 0;
-}
 .main-section__foto {
   width: 100%;
 }
@@ -9751,40 +9750,41 @@ p {
   width: 70%;
 }
 
+.no_padding {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
-@media (min-width: 992px) {
-  .container {
-    max-width: 1500px;
-  }
-}
-@media (min-width: 576px) {
-  .container {
-    max-width: 100%;
-  }
-}
 .footer {
-  margin: 0;
-  padding-top: 2%;
-  padding-bottom: 2%;
   display: flex;
 }
 .footer__div {
   width: 100%;
 }
 .footer__input {
-  width: 90%;
   background-color: #0c0910;
   color: #FFF;
   display: grid;
 }
-.footer__susb {
-  width: 10%;
+.footer--rotar {
   background-color: #FFF;
   color: #0c0910;
+  /* Chrome y Safari */
+  -webkit-transform: rotate(90deg);
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+  /* Opera */
+  -o-transform: rotate(90deg);
+  /* IE 9 */
+  -ms-transform: rotate(90deg);
+  /* IE 8 */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 .button {
