@@ -9729,7 +9729,7 @@ p {
   padding-right: 1rem;
 }
 
-.navbar-light--texto {
+.navbar-light {
   font-weight: 700;
   color: #0c0910;
   padding-right: 1rem;
@@ -9741,17 +9741,56 @@ p {
   padding-left: 2rem;
 }
 
-.my-toggler {
-  border-color: #ff66cb;
+.main-section {
+  margin: 0;
+}
+.main-section__foto {
+  width: 100%;
+}
+.main-section__main {
+  width: 70%;
 }
 
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1500px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
 .footer {
+  margin: 0;
   padding-top: 2%;
   padding-bottom: 2%;
+  display: flex;
+}
+.footer__div {
+  width: 100%;
+}
+.footer__input {
+  width: 90%;
+  background-color: #0c0910;
+  color: #FFF;
+  display: grid;
+}
+.footer__susb {
+  width: 10%;
+  background-color: #FFF;
+  color: #0c0910;
 }
 
-.logo__footer {
-  width: 10%;
+.inputs {
+  width: 80%;
+  font-family: "Old Standard TT", serif;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=main.css.map */
