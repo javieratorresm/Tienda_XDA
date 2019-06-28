@@ -9759,7 +9759,10 @@ p {
 }
 .main-section--divv {
   padding-bottom: 15%;
-  padding-top: 35%;
+  padding-top: 20%;
+}
+.main-section--divf {
+  padding-top: 13%;
 }
 .main-section--foter {
   display: inline-block;
