@@ -1,12 +1,28 @@
 
 .main-section{
 
+  min-height: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #808080;
+  display: inline-flex;
+
+  &__div{
+    width: 47%;
+    border: 2px solid red;
+
+  }
   &__foto{
     width: 100%;
 
   }
-  &__main{
-    width: 70%;
+  &--divv{
+    padding-bottom: 15%;
+    padding-top: 35%;
+  }
+
+  &--foter{
+    display: inline-block;
 
   }
 }
@@ -17,8 +33,29 @@
 }
 
 
-.container{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
+
+.footer {
+
+    &--rotar{
+      height: 100%;
+
+      background-color: $white;
+      color: $smokyblack;
+
+          /* Chrome y Safari */
+          -webkit-transform: rotate(90deg);
+
+          /* Firefox */
+          -moz-transform: rotate(90deg);
+
+          /* Opera */
+          -o-transform: rotate(90deg);
+
+          /* IE 9 */
+          -ms-transform: rotate(90deg);
+
+          /* IE 8 */
+          filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+      }
+    }
