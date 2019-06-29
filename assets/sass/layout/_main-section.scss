@@ -1,64 +1,139 @@
 
-.main-section{
+@media (min-width: 992px) {
 
-  min-height: 600px;
-  width: 100%;
-  box-sizing: border-box;
-  display: inline-flex;
-  align-content: space-between;
+  .main-section{
 
-  &__div{
-    width: 47%;
-    display: inline-flex;
-  }
-  &__foto{
+    min-height: 600px;
     width: 100%;
-
-  }
-  &--divv{
-    padding-bottom: 15%;
-    padding-top: 20%;
-    margin-right: 5%;
-
-  }
-  &--divf{
     box-sizing: border-box;
-    padding-top: 13%;
-    display: flex;
+    display: inline-flex ;
+    align-content: space-between;
+    &__div{
+      width: 47%;
+      display: inline-flex;
+    }
+    &__foto{
+      width: 100%;
+
+    }
+    &--divv{
+      padding-bottom: 15%;
+      padding-top: 20%;
+      margin-right: 5%;
+
+    }
+    &--divf{
+      box-sizing: border-box;
+      padding-top: 13%;
+      display: flex;
+    }
+    &--mar{
+      margin-left: 5%;
+    }
+    &--foter{
+      display: inline-block;
+
+    }
   }
-  &--mar{
-    margin-left: 5%;
+
+  .no_padding{
+    padding: 0;
+    margin: 0;
   }
-  &--foter{
-    display: inline-block;
+
+
+  .rotar{
+    background-color: $white;
+    color: $smokyblack;
+    padding: auto;
+
+        /* Chrome y Safari */
+        -webkit-transform: rotate(90deg);
+
+        /* Firefox */
+        -moz-transform: rotate(90deg);
+
+        /* Opera */
+        -o-transform: rotate(90deg);
+
+        /* IE 9 */
+        -ms-transform: rotate(90deg);
+
+        /* IE 8 */
+        filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+    }
+
+
+}
+@media (min-width: 576px) {
+
+    .main-section{
+
+      min-height: 600px;
+      width: 100%;
+      box-sizing: border-box;
+      display: inline-flex;
+      flex-direction: row-reverse;
+      align-content: space-between;
+
+      &__div{
+        width: 47%;
+        display: inline-flex;
+      }
+      &__foto{
+        width: 100%;
+
+      }
+      &--divv{
+        padding-bottom: 15%;
+        padding-top: 20%;
+        margin-right: 5%;
+        order:2;
+      }
+      &--divf{
+        box-sizing: border-box;
+        padding-top: 13%;
+        display: flex;
+      }
+      &--mar{
+        margin-left: 5%;
+        order:1;
+      }
+      &--foter{
+        display: inline-block;
+
+      }
+    }
+
+    .no_padding{
+      padding: 0;
+      margin: 0;
+    }
+
+
+    .rotar{
+      background-color: $white;
+      color: $smokyblack;
+      padding: auto;
+
+          /* Chrome y Safari */
+          -webkit-transform: rotate(90deg);
+
+          /* Firefox */
+          -moz-transform: rotate(90deg);
+
+          /* Opera */
+          -o-transform: rotate(90deg);
+
+          /* IE 9 */
+          -ms-transform: rotate(90deg);
+
+          /* IE 8 */
+          filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+      }
+
 
   }
 }
-
-.no_padding{
-  padding: 0;
-  margin: 0;
-}
-
-
-.rotar{
-  background-color: $white;
-  color: $smokyblack;
-  padding: auto;
-
-      /* Chrome y Safari */
-      -webkit-transform: rotate(90deg);
-
-      /* Firefox */
-      -moz-transform: rotate(90deg);
-
-      /* Opera */
-      -o-transform: rotate(90deg);
-
-      /* IE 9 */
-      -ms-transform: rotate(90deg);
-
-      /* IE 8 */
-      filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
-  }
