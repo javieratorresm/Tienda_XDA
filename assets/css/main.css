@@ -9747,12 +9747,12 @@ p {
   min-height: 600px;
   width: 100%;
   box-sizing: border-box;
-  border: 2px solid #808080;
   display: inline-flex;
+  align-content: space-between;
 }
 .main-section__div {
   width: 47%;
-  border: 2px solid red;
+  display: inline-flex;
 }
 .main-section__foto {
   width: 100%;
@@ -9760,9 +9760,15 @@ p {
 .main-section--divv {
   padding-bottom: 15%;
   padding-top: 20%;
+  margin-right: 5%;
 }
 .main-section--divf {
+  box-sizing: border-box;
   padding-top: 13%;
+  display: flex;
+}
+.main-section--mar {
+  margin-left: 5%;
 }
 .main-section--foter {
   display: inline-block;
@@ -9773,10 +9779,10 @@ p {
   margin: 0;
 }
 
-.footer--rotar {
-  height: 100%;
+.rotar {
   background-color: #FFF;
   color: #0c0910;
+  padding: auto;
   /* Chrome y Safari */
   -webkit-transform: rotate(90deg);
   /* Firefox */
@@ -9790,33 +9796,20 @@ p {
 }
 
 .footer {
-  display: inline-block;
+  display: inline-flex;
   width: 100%;
 }
 .footer__div {
-  width: 100%;
-  height: 100%;
+  width: 10%;
+  box-sizing: border-box;
+  padding: 2%;
 }
 .footer__input {
   background-color: #0c0910;
   color: #FFF;
-  width: 100%;
+  width: 80%;
   height: 100%;
-}
-.footer--rotar {
-  height: 100%;
-  background-color: #FFF;
-  color: #0c0910;
-  /* Chrome y Safari */
-  -webkit-transform: rotate(90deg);
-  /* Firefox */
-  -moz-transform: rotate(90deg);
-  /* Opera */
-  -o-transform: rotate(90deg);
-  /* IE 9 */
-  -ms-transform: rotate(90deg);
-  /* IE 8 */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  box-sizing: border-box;
 }
 
 .button {

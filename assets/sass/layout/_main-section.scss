@@ -4,13 +4,12 @@
   min-height: 600px;
   width: 100%;
   box-sizing: border-box;
-  border: 2px solid #808080;
   display: inline-flex;
+  align-content: space-between;
 
   &__div{
     width: 47%;
-    border: 2px solid red;
-
+    display: inline-flex;
   }
   &__foto{
     width: 100%;
@@ -19,10 +18,16 @@
   &--divv{
     padding-bottom: 15%;
     padding-top: 20%;
+    margin-right: 5%;
+
   }
   &--divf{
-
+    box-sizing: border-box;
     padding-top: 13%;
+    display: flex;
+  }
+  &--mar{
+    margin-left: 5%;
   }
   &--foter{
     display: inline-block;
@@ -36,29 +41,24 @@
 }
 
 
+.rotar{
+  background-color: $white;
+  color: $smokyblack;
+  padding: auto;
 
-.footer {
+      /* Chrome y Safari */
+      -webkit-transform: rotate(90deg);
 
-    &--rotar{
-      height: 100%;
+      /* Firefox */
+      -moz-transform: rotate(90deg);
 
-      background-color: $white;
-      color: $smokyblack;
+      /* Opera */
+      -o-transform: rotate(90deg);
 
-          /* Chrome y Safari */
-          -webkit-transform: rotate(90deg);
+      /* IE 9 */
+      -ms-transform: rotate(90deg);
 
-          /* Firefox */
-          -moz-transform: rotate(90deg);
+      /* IE 8 */
+      filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
-          /* Opera */
-          -o-transform: rotate(90deg);
-
-          /* IE 9 */
-          -ms-transform: rotate(90deg);
-
-          /* IE 8 */
-          filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
-      }
-    }
+  }
